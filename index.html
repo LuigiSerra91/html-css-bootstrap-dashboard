@@ -13,9 +13,33 @@
 
     <header id="app_header">
         <nav class="navbar navbar-dark bg-dark">
-            <div class="container-fluid">
+           
+            <div class="container-fluid d-lg-flex justify-content-lg-start">
               <a class="navbar-brand" href="#"><img width="50px" src="./img/duck.png" alt=""></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                
+                    <ul id="list-1" class="d-flex justify-content-around mt-4 text-white">
+                        <li>
+                            <a href="">Catalogo libri</a>
+                        </li>
+
+                        <li class="px-3">
+                           <a href=""> anagrafica utenti</a>
+                        </li>
+
+                        <li>
+                            <a class="px-3" href="">Storico Prestiti</a>
+                        </li>
+
+                        <li>
+                            <a href="">help</a>
+                        </li>
+                    </ul>
+                
+                
+            
+              
+                
+              <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
@@ -55,7 +79,7 @@
           </nav>
     </header>
      <main id="app_main">
-        <div class="intro mt-5 d-flex justify-content-around align-items-center">
+        <div class="intro mt-5 d-flex justify-content-between align-items-center">
             <h3>
                 Catalogo Libri
             </h3>
@@ -67,13 +91,16 @@
             <thead>
                 <tr>
                   <th scope="col">Titolo</th>
+                  <th scope="col" class="d-none d-md-block">Data prestito</th>
                   <th scope="col">stato</th>
                   <th scope="col">Azioni</th>
+                  
                 </tr>
               </thead>
               <tbody class="table-group-divider">
                 <tr>
                   <td>i pilastri della terra</td>
+                  <td class="d-none d-md-block">-</td>
                   <td><button type="button" class="btn btn-success"
                     style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
               Disponibile
@@ -91,6 +118,7 @@
                 </tr>
                 <tr>
                   <td>i promessi sposi</td>
+                  <td class="d-none d-md-block" >-</td>
                   <td><button type="button" class="btn btn-warning"
                     style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
               in prestito
@@ -107,6 +135,7 @@
                 </tr>
                 <tr>
                   <td>il signore degli anelli</td>
+                  <td class="d-none d-md-block">-</td>
                   <td><button type="button" class="btn btn-danger"
                     style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
               Custom button
@@ -123,6 +152,7 @@
                 </tr>
                 <tr>
                     <td>i pilastri della terra</td>
+                    <td class="d-none d-md-block">-</td>
                     <td><button type="button" class="btn btn-success"
                       style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
                 Disponibile
@@ -139,6 +169,7 @@
                   </tr>
                   <tr>
                     <td>i promessi sposi</td>
+                    <td class="d-none d-md-block">-</td>
                     <td><button type="button" class="btn btn-warning"
                       style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
                 in prestito
@@ -155,6 +186,7 @@
                   </tr>
                   <tr>
                     <td>il signore degli anelli</td>
+                    <td class="d-none d-md-block">18/10/2023</td>
                     <td><button type="button" class="btn btn-danger"
                       style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
                 Custom button
@@ -171,6 +203,7 @@
                   </tr>
                   <tr>
                     <td>i pilastri della terra</td>
+                    <td class="d-none d-md-block">-</td>
                     <td><button type="button" class="btn btn-success"
                       style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
                 Disponibile
@@ -187,6 +220,7 @@
                   </tr>
                   <tr>
                     <td>i promessi sposi</td>
+                    <td class="d-none d-md-block">-</td>
                     <td><button type="button" class="btn btn-warning"
                       style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
                 in prestito
@@ -203,6 +237,7 @@
                   </tr>
                   <tr>
                     <td>il signore degli anelli</td>
+                    <td class="d-none d-md-block">10/05/2024</td>
                     <td><button type="button" class="btn btn-danger"
                       style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
                 Custom button
@@ -220,6 +255,7 @@
 
                <tr>
                   <td>i pilastri della terra</td>
+                  <td class="d-none d-md-block">-</td>
                   <td><button type="button" class="btn btn-success"
                     style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
               Disponibile
@@ -236,6 +272,7 @@
                 </tr>
                 <tr>
                   <td>i promessi sposi</td>
+                  <td class="d-none d-md-block">14/09/2025</td>
                   <td><button type="button" class="btn btn-warning"
                     style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
               in prestito
@@ -252,6 +289,7 @@
                 </tr>
                 <tr>
                   <td>il signore degli anelli</td>
+                  <td class="d-none d-md-block">-</td>
                   <td><button type="button" class="btn btn-danger"
                     style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
               Custom button
