@@ -17,7 +17,7 @@
             <div class="container-fluid d-lg-flex justify-content-lg-start">
               <a class="navbar-brand" href="#"><img width="50px" src="./img/duck.png" alt=""></a>
                 
-                    <ul id="list-1" class="d-flex justify-content-around mt-4 text-white">
+                    <ol id="list-1" class="d-flex justify-content-around mt-4 text-white d-none d-lg-flex">
                         <li>
                             <a href="">Catalogo libri</a>
                         </li>
@@ -33,7 +33,7 @@
                         <li>
                             <a href="">help</a>
                         </li>
-                    </ul>
+                    </ol>
                 
                 
             
@@ -84,231 +84,248 @@
                 Catalogo Libri
             </h3>
             <span> <button type="button" class="btn btn-primary">Aggiungi Libri</button></span>
-           
-        </div>
+             </div>
 
-        <table class="table table-striped  table-hover">
-            <thead>
-                <tr>
-                  <th scope="col">Titolo</th>
-                  <th scope="col" class="d-none d-md-block">Data prestito</th>
-                  <th scope="col">stato</th>
-                  <th scope="col">Azioni</th>
-                  
-                </tr>
-              </thead>
-              <tbody class="table-group-divider">
-                <tr>
-                  <td>i pilastri della terra</td>
-                  <td class="d-none d-md-block">-</td>
-                  <td><button type="button" class="btn btn-success"
-                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-              Disponibile
-            </button></td>
-            <td>
-                <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">
-                    <i class="fa-solid fa-pencil"></i>
-                </a>
-
-                <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">
-                    <i class="fa-solid fa-basket-shopping"></i>
-                </a>
-                
-            </td>
-                </tr>
-                <tr>
-                  <td>i promessi sposi</td>
-                  <td class="d-none d-md-block" >-</td>
-                  <td><button type="button" class="btn btn-warning"
-                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-              in prestito
-            </button></td>
-            <td>
-                <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">
-                    <i class="fa-solid fa-pencil"></i>
-                </a>
-
-                <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">
-                    <i class="fa-solid fa-basket-shopping"></i>
-                </a>
-            </td>
-                </tr>
-                <tr>
-                  <td>il signore degli anelli</td>
-                  <td class="d-none d-md-block">-</td>
-                  <td><button type="button" class="btn btn-danger"
-                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-              Custom button
-            </button></td>
-            <td>
-                <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">
-                    <i class="fa-solid fa-pencil"></i>
-                </a>
-
-                <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">
-                    <i class="fa-solid fa-basket-shopping"></i>
-                </a>
-            </td>
-                </tr>
-                <tr>
-                    <td>i pilastri della terra</td>
-                    <td class="d-none d-md-block">-</td>
-                    <td><button type="button" class="btn btn-success"
-                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-                Disponibile
-              </button></td>
-              <td>
-                <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">
-                    <i class="fa-solid fa-pencil"></i>
-                </a>
-
-                <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">
-                    <i class="fa-solid fa-basket-shopping"></i>
-                </a>
-              </td>
-                  </tr>
-                  <tr>
-                    <td>i promessi sposi</td>
-                    <td class="d-none d-md-block">-</td>
-                    <td><button type="button" class="btn btn-warning"
-                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-                in prestito
-              </button></td>
-              <td>
-                <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">
-                    <i class="fa-solid fa-pencil"></i>
-                </a>
-
-                <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">
-                    <i class="fa-solid fa-basket-shopping"></i>
-                </a>
-              </td>
-                  </tr>
-                  <tr>
-                    <td>il signore degli anelli</td>
-                    <td class="d-none d-md-block">18/10/2023</td>
-                    <td><button type="button" class="btn btn-danger"
-                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-                Custom button
-              </button></td>
-              <td>
-                <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">
-                    <i class="fa-solid fa-pencil"></i>
-                </a>
-
-                <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">
-                    <i class="fa-solid fa-basket-shopping"></i>
-                </a>
-              </td>
-                  </tr>
-                  <tr>
-                    <td>i pilastri della terra</td>
-                    <td class="d-none d-md-block">-</td>
-                    <td><button type="button" class="btn btn-success"
-                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-                Disponibile
-              </button></td>
-              <td>
-                <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">
-                    <i class="fa-solid fa-pencil"></i>
-                </a>
-
-                <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">
-                    <i class="fa-solid fa-basket-shopping"></i>
-                </a>
-              </td>
-                  </tr>
-                  <tr>
-                    <td>i promessi sposi</td>
-                    <td class="d-none d-md-block">-</td>
-                    <td><button type="button" class="btn btn-warning"
-                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-                in prestito
-              </button></td>
-              <td>
-                <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">
-                    <i class="fa-solid fa-pencil"></i>
-                </a>
-
-                <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">
-                    <i class="fa-solid fa-basket-shopping"></i>
-                </a>
-              </td>
-                  </tr>
-                  <tr>
-                    <td>il signore degli anelli</td>
-                    <td class="d-none d-md-block">10/05/2024</td>
-                    <td><button type="button" class="btn btn-danger"
-                      style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-                Custom button
-              </button></td>
-              <td>
-                <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">
-                    <i class="fa-solid fa-pencil"></i>
-                </a>
-
-                <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">
-                    <i class="fa-solid fa-basket-shopping"></i>
-                </a>
-              </td>
-                  </tr>
-
-               <tr>
-                  <td>i pilastri della terra</td>
-                  <td class="d-none d-md-block">-</td>
-                  <td><button type="button" class="btn btn-success"
-                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-              Disponibile
-            </button></td>
-            <td>
-                <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">
-                    <i class="fa-solid fa-pencil"></i>
-                </a>
-
-                <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">
-                    <i class="fa-solid fa-basket-shopping"></i>
-                </a>
-            </td>
-                </tr>
-                <tr>
-                  <td>i promessi sposi</td>
-                  <td class="d-none d-md-block">14/09/2025</td>
-                  <td><button type="button" class="btn btn-warning"
-                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-              in prestito
-            </button></td>
-            <td>
-                <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">
-                    <i class="fa-solid fa-pencil"></i>
-                </a>
-
-                <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">
-                    <i class="fa-solid fa-basket-shopping"></i>
-                </a>
-            </td>
-                </tr>
-                <tr>
-                  <td>il signore degli anelli</td>
-                  <td class="d-none d-md-block">-</td>
-                  <td><button type="button" class="btn btn-danger"
-                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-              Custom button
-            </button></td>
-            <td>
-                <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">
-                    <i class="fa-solid fa-pencil"></i>
-                </a>
-
-                <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">
-                    <i class="fa-solid fa-basket-shopping"></i>
-                </a>
-            </td>
-                </tr>
-
-                
-               </tbody>
-        </table>
+            <table class="table table-striped table-hover">
+  <thead>
+    <tr>
+        <th>Titolo</th>
+        <th class="d-none d-md-block">Data prestito</th>
+        <th>stato</th>
+        <th>Azioni</th>
         
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+        <td>i pilastri della terra</td>
+        <td class="d-none d-md-block pt-4">-</td>
+        <td><button type="button" class="btn btn-success"
+          style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+    Disponibile
+  </button></td>
+      <td>
+      <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">
+          <i class="fa-solid fa-pencil"></i>
+      </a>
+
+      <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">
+          <i class="fa-solid fa-basket-shopping"></i>
+      </a>
+      
+     </td>
+      </tr>
+      <tr>
+        <td>i promessi sposi</td>                                         
+        <td class="d-none d-md-block pt-4">-</td>
+        <td><button type="button" class="btn btn-warning"
+          style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+    in prestito
+  </button></td>
+  <td>
+      <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">
+          <i class="fa-solid fa-pencil"></i>
+      </a>
+
+      <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">
+          <i class="fa-solid fa-basket-shopping"></i>
+      </a>
+  </td>
+      </tr>
+      <tr>
+        <td>il signore degli anelli</td>
+        <td class="d-none d-md-block pt-4">-</td>
+        <td><button type="button" class="btn btn-danger"
+          style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+    Custom button
+  </button></td>
+  <td>
+      <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">
+          <i class="fa-solid fa-pencil"></i>
+      </a>
+
+      <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">
+          <i class="fa-solid fa-basket-shopping"></i>
+      </a>
+  </td>
+      </tr>
+      <tr>
+          <td>i pilastri della terra</td>
+          <td class="d-none d-md-block pt-4">-</td>
+          <td><button type="button" class="btn btn-success"
+            style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+      Disponibile
+    </button></td>
+    <td>
+      <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">
+          <i class="fa-solid fa-pencil"></i>
+      </a>
+
+      <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">
+          <i class="fa-solid fa-basket-shopping"></i>
+      </a>
+    </td>
+        </tr>
+        <tr>
+          <td>i promessi sposi</td>
+          <td class="d-none d-md-block pt-4">-</td>
+          <td><button type="button" class="btn btn-warning"
+            style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+      in prestito
+    </button></td>
+    <td>
+      <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">
+          <i class="fa-solid fa-pencil"></i>
+      </a>
+
+      <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">
+          <i class="fa-solid fa-basket-shopping"></i>
+      </a>
+    </td>
+        </tr>
+        <tr>
+          <td>il signore degli anelli</td>
+          <td class="d-none d-md-block pt-4">18/10/2023</td>
+          <td><button type="button" class="btn btn-danger"
+            style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+      Custom button
+    </button></td>
+    <td>
+      <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">
+          <i class="fa-solid fa-pencil"></i>
+      </a>
+
+      <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">
+          <i class="fa-solid fa-basket-shopping"></i>
+      </a>
+    </td>
+        </tr>
+        <tr>
+          <td>i pilastri della terra</td>
+          <td class="d-none d-md-block pt-4">-</td>
+          <td><button type="button" class="btn btn-success"
+            style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+      Disponibile
+    </button></td>
+    <td>
+      <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">
+          <i class="fa-solid fa-pencil"></i>
+      </a>
+
+      <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">
+          <i class="fa-solid fa-basket-shopping"></i>
+      </a>
+    </td>
+        </tr>
+        <tr>
+          <td>i promessi sposi</td>
+          <td class="d-none d-md-block pt-4">-</td>
+          <td><button type="button" class="btn btn-warning"
+            style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+      in prestito
+    </button></td>
+    <td>
+      <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">
+          <i class="fa-solid fa-pencil"></i>
+      </a>
+
+      <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">
+          <i class="fa-solid fa-basket-shopping"></i>
+      </a>
+    </td>
+        </tr>
+        <tr>
+          <td>il signore degli anelli</td>
+          <td class="d-none d-md-block pt-4">10/05/2024</td>
+          <td><button type="button" class="btn btn-danger"
+            style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+      Custom button
+    </button></td>
+    <td>
+      <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">
+          <i class="fa-solid fa-pencil"></i>
+      </a>
+
+      <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">
+          <i class="fa-solid fa-basket-shopping"></i>
+      </a>
+    </td>
+        </tr>
+
+     <tr>
+        <td>i pilastri della terra</td>
+        <td class="d-none d-md-block pt-4">-</td>
+        <td><button type="button" class="btn btn-success"
+          style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+    Disponibile
+  </button></td>
+  <td>
+      <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">
+          <i class="fa-solid fa-pencil"></i>
+      </a>
+
+      <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">
+          <i class="fa-solid fa-basket-shopping"></i>
+      </a>
+  </td>
+      </tr>
+      <tr>
+        <td>i promessi sposi</td>
+        <td class="d-none d-md-block pt-4">14/09/2025</td>
+        <td><button type="button" class="btn btn-warning"
+          style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+    in prestito
+  </button></td>
+  <td>
+      <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">
+          <i class="fa-solid fa-pencil"></i>
+      </a>
+
+      <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">
+          <i class="fa-solid fa-basket-shopping"></i>
+      </a>
+  </td>
+      </tr>
+      <tr>
+        <td>il signore degli anelli</td>
+        <td class="d-none d-md-block pt-4">-</td>
+        <td><button type="button" class="btn btn-danger"
+          style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+    Custom button
+  </button></td>
+  <td>
+      <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">
+          <i class="fa-solid fa-pencil"></i>
+      </a>
+
+      <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">
+          <i class="fa-solid fa-basket-shopping"></i>
+      </a>
+  </td>
+      </tr>
+
+  </tbody>
+</table>
+    
+
+   
+    <div class="card text-bg-light mb-3">
+        <div class="card-header"><h3>Todo</h3></div>
+        <div class="card">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"> <input type="checkbox" name="" id=""> Chiamre segreteria</li>
+              <li class="list-group-item"><input type="checkbox" name="" id=""> mandare avvisi prestiti scaduti</li>
+              <li class="list-group-item"><input type="checkbox" name="" id=""> ordinare i nuovi libri</li>
+            </ul>
+          </div>
+      </div>
+      
+   
+
+    
      </main>
+
+
+     
 </body>
 </html>

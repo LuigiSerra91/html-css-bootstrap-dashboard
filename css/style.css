@@ -18,11 +18,16 @@ img{
     flex-wrap: wrap;
 }
 
-ul{
+ol{
 
-    
+   list-style: none;
     a{
         text-decoration: none;
+        color: white;
     }
 }
 
+main{
+    margin: auto;
+    width: 80%;
+}
